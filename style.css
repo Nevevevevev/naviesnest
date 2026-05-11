@@ -16,9 +16,6 @@
     justify-content: space-between;
 }
 .thing h1, .thing h6 {
-    text-shadow: 0 0 8px white, 0 0 8px white;
-}
-.thing h1, .thing h6 {
     -webkit-text-stroke: 1px white;
 }
 #product-1{
