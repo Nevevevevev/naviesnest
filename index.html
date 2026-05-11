@@ -14,19 +14,13 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
-                    <!-- Left: logo image + brand name -->
                     <a class="navbar-brand tangerine d-flex align-items-center" href="#" id="logo">
                         <img style="width: 100px;" src="toy.jpg" class="me-2">
                         Navie's Nest
                     </a>
-
-                    <!-- Mobile toggle -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <!-- Right: search + nav links -->
                     <div id="navbar-items" class="collapse navbar-collapse">
                         <ul class="navbar-nav ms-auto align-items-center">
                             <li class="nav-item ms-3">
@@ -38,10 +32,57 @@
                             <li class="nav-item"><a class="nav-link" href="animals.html">CROCHET ANIMALS</a></li>
                         </ul>
                     </div>
-
                 </div>
             </nav>
         </header>
+        <div class="container-fluid carousel slide" data-bs-ride="carousel" id="featured-products">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#featured-products" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#featured-products" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#featured-products" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="thing" id="product-1">
+                        <div class="text-center mt-4">
+                            <h1>PLACEHOLDER 1</h1>
+                            <h6 class="text-muted">PLACEHOLDER 1</h6>
+                        </div>
+                        <div class="text-center mb-5">
+                            <button class="btn btn-info">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="thing" id="product-2">
+                        <div class="text-center mt-4">
+                            <h1>PLACEHOLDER 2</h1>
+                            <h6 class="text-muted">PLACEHOLDER 2</h6>
+                        </div>
+                        <div class="text-center mb-5">
+                            <button class="btn btn-info">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="thing" id="product-3">
+                        <div class="text-center mt-4">
+                            <h1>PLACEHOLDER 3</h1>
+                            <h6 class="text-muted">PLACEHOLDER 3</h6>
+                        </div>
+                        <div class="text-center mb-5">
+                            <button class="btn btn-info">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#featured-products" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#featured-products" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>

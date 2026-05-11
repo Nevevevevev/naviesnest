@@ -6,3 +6,27 @@
 #logo {
   font-size: 4em;
 }
+.thing {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.thing h1, .thing h6 {
+    text-shadow: 0 0 8px white, 0 0 8px white;
+}
+.thing h1, .thing h6 {
+    -webkit-text-stroke: 1px white;
+}
+#product-1{
+  background-image: url("download.png");
+}
+#product-2{
+  background-image: url("download.jpg");
+}
+#product-3{
+  background-image: url("Black.png");
+}
